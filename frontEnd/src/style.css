@@ -1,0 +1,111 @@
+.loginPage {
+    background: url('./assets/store.jpg');
+    /* background: url('https://t4.ftcdn.net/jpg/05/54/47/79/360_F_554477926_yKEcMeDTD1oLqKQCjvpryeT5zHLMunNh.jpg'); */
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5), url('../../public/images/loginpage.jpg'));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.logo {
+    height: 50px;
+    text-align: center;
+}
+
+.input {
+    background-color: transparent;
+    color: white;
+}
+
+.input:focus {
+    background-color: transparent;
+    color: white;
+}
+
+.input::placeholder {
+    color: rgb(176, 170, 170);
+}
+
+.loginForm {
+    background-color: rgba(25, 46, 61, 0.6);
+    color: white;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.empImage {
+    height: 40px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.emplImage {
+    height: 120px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.leaveContainer {
+    overflow-y: scroll;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, rgb(174, 209, 237), rgb(61, 81, 77));
+}
+
+.navbar1 {
+    height: 70px;
+    color: rgb(80, 12, 12);
+    background: linear-gradient(to right, rgb(235, 244, 250), rgb(139, 153, 181));
+}
+
+
+
+
+.data {
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: rgb(221, 249, 241);
+}
+
+
+.Auth-form {
+    background-color: rgba(25, 46, 61, 0.6);
+    color: white;
+    width: 420px;
+    box-shadow: 0 5px 25px rgb(120, 204, 229);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+
+.Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 30px;
+    color: rgb(248, 246, 245);
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 6px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 750;
+    color: rgb(255, 255, 255);
+}
+
+.forgot-password {
+    font-size: large;
+    text-align: start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
